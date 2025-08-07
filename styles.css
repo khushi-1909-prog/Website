@@ -244,9 +244,18 @@ img {
   font-weight: 500;
 }
 
+.small-img {
+  width: 100px;    /* or whatever size you prefer */
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px; /* optional for rounded corners */
+}
+
+
 .card .btn.small {
   margin-top: 0.5rem;
   font-size: 0.8rem;
   padding: 0.3rem 0.8rem;
 }
+
 
