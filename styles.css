@@ -191,9 +191,15 @@ img {
   gap: 1rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.btn-group.top-center .btn {
   padding: 14px 28px;
   font-size: 1.1rem;
+  border-radius: 8px;        /* Optional: rounder corners */
+  font-weight: bold;         /* Optional: bolder text */
 }
+
 .btn-with-badge {
   position: relative;
   display: inline-block;
@@ -268,6 +274,7 @@ img {
   background-color: white;
   color: #00aaff;
 }
+
 
 
 
