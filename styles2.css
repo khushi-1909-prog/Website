@@ -80,6 +80,54 @@ footer {
     height: 320px;       /* keep consistent height */
   }
 }
+/* --- White Shirt Page Specific Styles --- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+table th {
+  background: #f9f9f9;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  background: #222;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+/* Responsive design - Adjust text sizes on smaller screens */
+@media (max-width: 768px) {
+  table th, table td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
+
+
 
 
 
