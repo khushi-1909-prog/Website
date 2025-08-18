@@ -24,8 +24,17 @@
 /* IMAGE GRID */
 .image-grid {
   display: flex;
-  justify-content: space-around;
-  margin: 20px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+image-grid img {
+  width: 250px;          /* fixed width for desktop */
+  height: 320px;         /* fixed height for all images */
+  object-fit: cover;     /* crop images to fit box without distortion */
+  border-radius: 8px;    /* optional rounded corners */
 }
 
 .image-card {
@@ -39,16 +48,7 @@
   object-fit: cover;
 }
 
-.image-card .btn {
-  margin-top: 8px;
-  display: inline-block;
-  padding: 6px 10px;
-  font-size: 0.9rem;
-  background: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-}
+
 
 /* FOOTER BUTTONS */
 .footer-buttons {
@@ -73,5 +73,13 @@ footer {
   background: #f5f5f5;
   margin-top: 20px;
 }
+@media (max-width: 768px) {
+  .image-grid img {
+    width: 100%;         /* full width on small screens */
+    max-width: 300px;    /* limit size so it doesn’t stretch too much */
+    height: 320px;       /* keep consistent height */
+  }
+}
+
 
 
