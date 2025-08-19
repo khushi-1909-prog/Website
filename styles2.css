@@ -160,7 +160,7 @@ table th {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  margin-top: 15px;
+  
 }
 
 .officewear-image-card {
@@ -187,6 +187,7 @@ table th {
     font-size: 1.1rem;
   }
 }
+
 
 
 
