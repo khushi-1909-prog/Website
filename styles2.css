@@ -141,6 +141,9 @@ table th {
   margin-bottom: 20px;
   text-align: center;
 }
+strong {
+  color: #000;
+}
 
 
 @media (max-width: 768px) {
@@ -154,6 +157,7 @@ table th {
     font-size: 1.1rem;
   }
 }
+
 
 
 
