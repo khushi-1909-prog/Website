@@ -144,6 +144,20 @@ table th {
 strong {
   color: #000;
 }
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.image-row img {
+  width: 200px;  /* Adjust as needed */
+  height: auto;
+  border-radius: 8px;
+}
+
 
 
 @media (max-width: 768px) {
@@ -157,6 +171,7 @@ strong {
     font-size: 1.1rem;
   }
 }
+
 
 
 
