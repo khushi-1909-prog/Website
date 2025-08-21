@@ -205,6 +205,19 @@ img {
   display: inline-block;
   text-decoration: none;
 }
+.badge-new {
+  background: #ff4757;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 8px;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+
+
+
 
 .btn-with-badge .badge {
   position: absolute;
@@ -274,6 +287,7 @@ img {
   background-color: white;
   color: #00aaff;
 }
+
 
 
 
