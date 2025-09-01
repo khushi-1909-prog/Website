@@ -29,18 +29,29 @@
       font-size: 14px;
       line-height: 1.5;
     }
-   .btn {
-   display: inline-block;       /* instead of block */
-   width: auto;                 /* removes full-width stretching */
-   padding: 10px 20px;          /* adjust padding to look good */
-   font-size: 16px;             /* standard readable size */
-   border-radius: 8px;          /* keep nice rounded corners */
-   text-align: center;          /* center text */
-   cursor: pointer;             /* add pointer on hover */
-   }
-   .btn:hover {
-    background: #007ad1;
-    }
+  .button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+font-weight: bold;
+text-decoration: none;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.button:hover {
+background-color: #0056b3;
+}
+
   </style>
 </head>
 <body>
@@ -52,8 +63,13 @@
       clothing, footwear, electronics, clothing, furniture, and cosmetics.
     </p>
     <p><strong>For this study, we are only considering clothing items.</strong></p>
-    <a href="home.html" class="btn">Start Shopping</a>
+    <div class="button-container">
+       <a href="home.html" class="button">Start Shopping</a>
+   </div>
+
+
   </div>
 </body>
 </html>
+
 
