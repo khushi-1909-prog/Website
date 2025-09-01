@@ -30,20 +30,18 @@
       font-size: 14px;
       line-height: 1.5;
     }
-    .btn {
-      display: block;
-      margin: 20px auto 0;
-      padding: 10px 20px;
-      background: #0096FF;
-      color: #fff;
-      text-decoration: none;
-      text-align: center;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-    .btn:hover {
-      background: #007ad1;
-    }
+   .btn {
+   display: inline-block;       /* instead of block */
+   width: auto;                 /* removes full-width stretching */
+   padding: 10px 20px;          /* adjust padding to look good */
+   font-size: 16px;             /* standard readable size */
+   border-radius: 8px;          /* keep nice rounded corners */
+   text-align: center;          /* center text */
+   cursor: pointer;             /* add pointer on hover */
+  }
+  .btn:hover {
+  background: #007ad1;
+  }
   </style>
 </head>
 <body>
@@ -66,3 +64,4 @@
   </div>
 </body>
 </html>
+
