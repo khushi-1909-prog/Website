@@ -335,6 +335,11 @@ img {
   background-color: white;
   color: #00aaff;
 }
+@keyframes pop {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
 
 
 
