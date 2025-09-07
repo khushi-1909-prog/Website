@@ -66,12 +66,7 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.navbar img {
-  height: 100%;               /* fill navbar height */
-  width: auto;                /* keep aspect ratio */
-  object-fit: contain;        /* scale without cutting */
-  display: block;
-}
+
 
 .price-box {
   display: inline-block;
@@ -346,6 +341,7 @@ img {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.2); }
 }
+
 
 
 
